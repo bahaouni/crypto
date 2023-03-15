@@ -1,0 +1,165 @@
+.about-section {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+
+.about-text {
+    color: #333;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.about-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 500px;
+}
+
+.about-img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-img:before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+    /* 4:3 aspect ratio */
+}
+
+.about-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.about-img:hover .overlay {
+    opacity: 1;
+}
+
+.about-img .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.about-img .overlay-content h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-img .overlay-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.site-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f7b500;
+    border-radius: 30px;
+    padding: 15px 25px;
+    transition: all 0.3s ease;
+}
+
+.site-btn:hover {
+    background-color: #e0a300;
+}
+
+.sbg-line {
+    background: linear-gradient(to right, #f7b500 0%, #f79600 100%);
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.3s ease;
+}
+
+.sbg-line:hover {
+    background-position: -100% center;
+}
+
+.baha {
+    position: relative;
+    right: 500px;
+
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.row {
+    position: absolute;
+    margin: 500px;
+    flex: 1;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+.imgg {
+    margin-top: 50px;
+    flex: 1;
+    margin-left: 0px;
+}
