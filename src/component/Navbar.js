@@ -1,5 +1,6 @@
 import logo from 'file:///C:/Users/msi/Desktop/crypto/crypto-app/src/img/logo.png'
-
+import { Form } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 
@@ -12,7 +13,7 @@ const Navbar = () => {
                 </a>
                 <div class="responsive-bar"><i class="fa fa-bars"></i></div>
                 <a href="aa" class="user"><i class="fa fa-user"></i></a>
-                <a href="a" class="site-btn">Sign Up Free</a>
+                <Link to="/signup" class="site-btn">Sign Up Free</Link>
                 <nav class="main-menu">
                     <ul class="menu-list">
                         <li><a href="a">Solution</a></li>

@@ -27,43 +27,43 @@ const Lakta = () => {
                 <a href="#articles" class="go-down">
                     <i class="fas fa-angle-double-down fa-2x"></i>
                 </a>
-               <div className="wrapper">
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
-                <div ><span className="dot"></span></div>
+                <div className="wrapper">
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
+                    <div ><span className="dot"></span></div>
 
-                </div> 
+                </div>
 
             </div>
         </div>
